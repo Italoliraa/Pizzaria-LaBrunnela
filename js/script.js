@@ -11,11 +11,11 @@ searchBox.oninput = () => {
         let title = filter.getAttribute('data-title');
 
         if (value == title) {
-            filter.style.display = 'block';
+            filter.style.display = 'flex';
         }
 
         if (searchBox.value == '') {
-            filter.style.display = 'block';
+            filter.style.display = 'flex';
         }
     })
 }
