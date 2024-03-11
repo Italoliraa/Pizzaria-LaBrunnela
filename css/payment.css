@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+}
+
+#container{
+    width: 250px;
+    background: rgba(232, 232, 236, 0.19);
+    text-align: center;
+    color: white;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 5px;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: greenyellow;
+}
+
+p{
+    margin: 0px;
+}
