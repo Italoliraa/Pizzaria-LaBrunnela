@@ -4,10 +4,30 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
 }
 
 body {
     background-color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list-menu{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.list-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.marketing{
+    color: orangered;
 }
 
 .container {
@@ -79,6 +99,11 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    & > strong{
+        align-self: baseline;
+    } & > .compra{
+        align-self: flex-end;
+    }
 }
 
 .container .image-container .image h3 {
@@ -87,3 +112,14 @@ body {
     padding-bottom: 20px;
 }
 
+.valor-da-pizza{
+    color: #fff;
+}
+
+.sucesso{
+    text-decoration: none;
+    color: orangered;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+}
