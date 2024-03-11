@@ -29,8 +29,11 @@ body {
 }
 
 .container .image-container {
+    align-items: center;
+    align-self: center;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
     gap: 20px;
     padding: 30px;
 }
@@ -44,28 +47,41 @@ body {
 .container .image-container .image {
     padding: 15px;
     background-color: #fff;
+    display: flex;
+    justify-content: baseline;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     border: 2px solid #000;
-    width: 350px;
+    width: 550px;
     border-radius: 5px;
     animation: fadeIn 0.2s linear;
     cursor: pointer;
+    justify-content: center;
 }
 
 .container .image-container .image img {
-    height: 250px;
-    width: 100%;
+    height: 150px;
+    width: 250px;
     object-fit: cover;
     margin-bottom: 10px;
     border-radius: 5px;
+    margin-right: 20px;
 }
 
 .container .image-container .image img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(2deg);
+    transition-duration: 300ms;
 
+}
+
+.container .image-container .image .text-des{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container .image-container .image h3 {
     font-size: 20px;
     color: #2c3e50;
+    padding-bottom: 20px;
 }
+
