@@ -123,3 +123,18 @@ body {
     cursor: pointer;
     border-radius: 50px;
 }
+
+.desing{
+    margin-right: 80px;
+    float: right;
+    text-align: center;
+    color: #fff;
+}
+.especial{
+    margin-right: 0px;
+    height: 50px;
+}
+
+.especial:hover{
+    transform: scale(1.3);
+}
