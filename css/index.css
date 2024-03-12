@@ -100,12 +100,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    & > strong{
-        align-self: baseline;
-    } & > .compra{
-        align-self: flex-end;
-    }
 }
+
+.container .image-container .image .text-des strong{
+    align-self: baseline;
+}
+
+.container .image-container .image .text-des strong .compra{
+    align-self: flex-end;
+}
+
 
 .container .image-container .image h3 {
     font-size: 20px;
@@ -146,4 +150,5 @@ body {
     border: none;
     border-radius: 15px;
     padding: 4px;
+    box-shadow: 2px 2px 2px #000;
 }
