@@ -1,13 +1,19 @@
 
 footer{
     text-align: center;
-    color: aliceblue;
+    display: flex;
+    color: black;
+    background-color: orange;
 }
 h5{
     font-size: 15px;
     margin: 0px;
 }
 
-p{
+a{
     margin: 0px auto;
+    text-decoration: none;
+    align-self: baseline;
+    color: aliceblue;
+    padding-left: 10px;
 }
