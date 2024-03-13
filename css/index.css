@@ -104,17 +104,25 @@ body {
 
 .container .image-container .image .text-des strong{
     align-self: baseline;
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container .image-container .image .text-des strong .compra{
     align-self: flex-end;
 }
 
+.container .image-container .image .text-des p{
+    font-size: 0.84rem;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+}
 
 .container .image-container .image h3 {
-    font-size: 20px;
+    font-size: 1.02rem;
     color: #2c3e50;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .valor-da-pizza{
