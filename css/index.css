@@ -34,6 +34,7 @@ body {
 .container {
     padding: 25px 10%;
     text-align: center;
+    justify-content: center;
 }
 
 .container .heading {
@@ -53,12 +54,16 @@ body {
 
 .container .image-container {
     align-items: center;
+    margin: -10%;
+    margin-top: 0;
+    margin-bottom: 0;
     align-self: center;
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
-    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 @keyframes fadeIn {

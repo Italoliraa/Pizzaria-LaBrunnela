@@ -1,19 +1,30 @@
 
 footer{
-    text-align: center;
-    display: flex;
     color: black;
-    background-color: orange;
+    background-color: rgb(255, 83, 3);
 }
-h5{
+
+#rodape{
+    text-align: start;
+    padding: 10px;
+}
+
+#rodape h4{
+    font-size: 20px;
+}
+
+.desenvolvimento{
+    text-align: center;
+    display: block;
+}
+
+.desenvolvimento h5{
     font-size: 15px;
     margin: 0px;
 }
 
-a{
+.desenvolvimento a, #rodape a{
     margin: 0px auto;
     text-decoration: none;
-    align-self: baseline;
     color: aliceblue;
-    padding-left: 10px;
 }
