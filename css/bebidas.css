@@ -1,0 +1,97 @@
+#container-bd{
+    text-align: center;
+    width: 650px;
+    margin: 10px auto;
+    color: aliceblue;
+}
+
+
+#primeiro{
+    height: 280px;
+    width: 650px;
+    
+}
+#segundo{
+    height: 280px;
+    width: 650px;
+    
+}
+#terceiro{
+    height: 280px;
+    width: 650px;
+    
+}
+
+
+.semagua{
+    height: auto;
+    width: 150px;
+    float: left;
+    margin: 30px;
+}
+
+.comgas{
+    height: auto;
+    width: 150px;
+    float: left;
+    margin: 30px;
+}
+
+.aguacoco{
+    height: auto;
+    width: 150px;
+    float: left;
+    margin: 30px;
+}
+
+.corona{
+    height: auto;
+    width: 150px;
+    float: left;
+    margin: 10px;
+    
+}
+
+.energetico{
+    height: auto;
+    width: 270px;
+    float: right;
+    margin: 10px;
+       
+}
+
+.heineken{
+    height: auto;
+    width: 150px;
+    float: right;
+    margin: 10px;
+    
+}
+
+.refrigerante{
+    height: auto;
+    width: 150px;
+    float: right;
+    margin: 15px;
+}
+
+.refrigerante{
+    height: auto;
+    width: 150px;
+    float: left;
+    margin: 25px;
+}
+
+.refrigerantelata{
+    height: auto;
+    width: 190px;
+    float: left;
+    margin: 25px;
+}
+
+.sucos{
+    height: auto;
+    width: 150px;
+    float: right;
+    margin: 25px;
+}
