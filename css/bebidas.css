@@ -4,22 +4,27 @@
     margin: 10px auto;
     color: aliceblue;
 }
-
+h3{
+    font-size: 20px;
+}
 
 #primeiro{
     height: 280px;
     width: 650px;
-    
+    background-color: rgba(0, 255, 255, 0.437);
+    border-radius: 5px;
 }
 #segundo{
     height: 280px;
     width: 650px;
-    
+    background-color: rgba(0, 255, 255, 0.437);
+    border-radius: 5px;
 }
 #terceiro{
-    height: 280px;
+    height: 310px;
     width: 650px;
-    
+    background-color: rgba(0, 255, 255, 0.437);
+    border-radius: 5px;
 }
 
 

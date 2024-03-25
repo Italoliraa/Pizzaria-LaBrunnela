@@ -27,7 +27,13 @@ body {
     color: #fff;
 }
 
+.menuu:hover{
+    color: blue;
+}
+
 .marketing{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
     color: orangered;
 }
 
@@ -131,6 +137,14 @@ body {
     padding-bottom: 8px;
 }
 
+#foto-logo{
+    text-align: center; 
+}
+
+.photo{
+    height: 190px;
+}
+
 .valor-da-pizza, .quantia-de-pizza{
     color: #fff;
 }
@@ -142,7 +156,7 @@ body {
     cursor: pointer;
     border-radius: 50px;
 }
-
+/*
 .desing{
     margin-right: 80px;
     float: right;
@@ -152,6 +166,29 @@ body {
 .especial{
     margin-right: 0px;
     height: 50px;
+}
+*/
+.design {
+    position: fixed;
+    bottom: 20px; 
+    right: 15px;
+    z-index: 9999; 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center;
+    color: #000; 
+}
+
+.design h4 {
+    margin: 0;
+}
+h4{
+    font-size: 12pt;
+    color: rgb(135, 206, 229);
+}
+
+.design img.especial {
+    height: 30px; 
 }
 
 .especial:hover{
@@ -165,4 +202,22 @@ body {
     border-radius: 15px;
     padding: 4px;
     box-shadow: 2px 2px 2px #000;
+}
+
+.social-media {
+    text-align: center;
+    position: fixed;
+    bottom: 20px; 
+    left: 10px; 
+    z-index: 9999; 
+    
+}
+
+.social-icon {
+    height: 50px; 
+}
+.huhu{
+    color: rgb(135, 206, 229);
+    font-size: 13pt;
+    margin: 0px;
 }

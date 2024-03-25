@@ -4,18 +4,10 @@ footer{
     background-color: rgb(255, 83, 3);
 }
 
-#rodape{
-    text-align: start;
-    padding: 10px;
-}
-
-#rodape h4{
-    font-size: 20px;
-}
-
 .desenvolvimento{
     text-align: center;
     display: block;
+    height: 70px;
 }
 
 .desenvolvimento h5{
@@ -27,4 +19,5 @@ footer{
     margin: 0px auto;
     text-decoration: none;
     color: aliceblue;
+    
 }
