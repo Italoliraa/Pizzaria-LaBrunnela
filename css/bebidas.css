@@ -3,6 +3,7 @@
     width: 650px;
     margin: 10px auto;
     color: aliceblue;
+    padding-bottom: 8px;
 }
 h3{
     font-size: 20px;
@@ -11,20 +12,28 @@ h3{
 #primeiro{
     height: 280px;
     width: 650px;
-    background-color: rgba(0, 255, 255, 0.437);
+    background-color: orange;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
 }
 #segundo{
     height: 280px;
     width: 650px;
-    background-color: rgba(0, 255, 255, 0.437);
+    background-color: orange;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
 }
 #terceiro{
     height: 310px;
     width: 650px;
-    background-color: rgba(0, 255, 255, 0.437);
+    background-color: orange;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -99,4 +108,11 @@ h3{
     width: 150px;
     float: right;
     margin: 25px;
+}
+
+.adicionar{
+    border: none;
+    border-radius: 14px;
+    padding: 3px;
+    box-shadow: 2px 2px 2px;
 }

@@ -18,8 +18,11 @@ body {
 .list-menu{
     cursor: pointer;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     gap: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
 }
 
 .list-menu a{
@@ -27,8 +30,12 @@ body {
     color: #fff;
 }
 
+.list-menu h3{
+    align-self: baseline;
+}
+
 .menuu:hover{
-    color: blue;
+    color: orangered;
 }
 
 .marketing{
@@ -138,11 +145,21 @@ body {
 }
 
 #foto-logo{
-    text-align: center; 
+    display: flex;
+    background: linear-gradient(to right, rgb(146, 39, 0), rgb(204, 54, 0), orangered, orangered);
+    height: 320px;
+    align-items: center;
+    justify-content: center;
 }
 
 .photo{
-    height: 190px;
+    height: 300px;
+    width: 300px;
+}
+
+.valor-tudo{
+    align-self: center;
+    align-items: center;
 }
 
 .valor-da-pizza, .quantia-de-pizza{
@@ -214,10 +231,12 @@ h4{
 }
 
 .social-icon {
-    height: 50px; 
+    height: 50px;
+    text-decoration: none;
+    color: purple;
 }
 .huhu{
-    color: rgb(135, 206, 229);
+    color: orange;
     font-size: 13pt;
     margin: 0px;
 }

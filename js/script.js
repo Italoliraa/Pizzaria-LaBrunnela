@@ -71,6 +71,18 @@ const c21P = document.querySelector(".c21P")
 const c22P = document.querySelector(".c22P")
 const c23P = document.querySelector(".c23P")
 const c24P = document.querySelector(".c24P")
+
+const b1 = document.querySelector('.b1')
+const b2 = document.querySelector('.b2')
+const b3 = document.querySelector('.b3')
+const b4 = document.querySelector('.b4')
+const b5 = document.querySelector('.b5')
+const b6 = document.querySelector('.b6')
+const b7 = document.querySelector('.b7')
+const b8 = document.querySelector('.b8')
+const b9 = document.querySelector('.b9')
+const b10 = document.querySelector('.b10')
+
 const sucess = document.querySelector(".sucesso")
 let valorAtual = document.querySelector(".valor-da-pizza")
 let quantidadePizzas = document.querySelector(".quantia-de-pizza")
@@ -127,6 +139,17 @@ let item21P = 0;
 let item22P = 0;
 let item23P = 0;
 let item24P = 0;
+
+let itemB1 = 0;
+let itemB2 = 0;
+let itemB3 = 0;
+let itemB4 = 0;
+let itemB5 = 0;
+let itemB6 = 0;
+let itemB7 = 0;
+let itemB8 = 0;
+let itemB9 = 0;
+let itemB10 = 0;
 
 
 function escolheuitem1G(){
