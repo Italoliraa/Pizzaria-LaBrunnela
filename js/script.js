@@ -86,9 +86,11 @@ const b10 = document.querySelector('.b10')
 const sucess = document.querySelector(".sucesso")
 let valorAtual = document.querySelector(".valor-da-pizza")
 let quantidadePizzas = document.querySelector(".quantia-de-pizza")
+let quantidadeBebidas = document.querySelector(".quantia-de-bebidas")
 let valorTotal = 0;
 let grandes = 0
 let pequenas = 0
+let bebidas = 0
 
 let item1G = 0;
 let item2G = 0;
@@ -140,16 +142,16 @@ let item22P = 0;
 let item23P = 0;
 let item24P = 0;
 
-let itemB1 = 0;
-let itemB2 = 0;
-let itemB3 = 0;
-let itemB4 = 0;
-let itemB5 = 0;
-let itemB6 = 0;
-let itemB7 = 0;
-let itemB8 = 0;
-let itemB9 = 0;
-let itemB10 = 0;
+let itemb1 = 0;
+let itemb2 = 0;
+let itemb3 = 0;
+let itemb4 = 0;
+let itemb5 = 0;
+let itemb6 = 0;
+let itemb7 = 0;
+let itemb8 = 0;
+let itemb9 = 0;
+let itemb10 = 0;
 
 
 function escolheuitem1G(){
@@ -394,6 +396,8 @@ c24G.addEventListener("click", escolheuitem24G)
 
 
 
+
+
 function escolheuitem1P(){
     item1P = 33.90
     valorTotal = valorTotal + item1P
@@ -633,6 +637,110 @@ function escolheuitem24P(){
     quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c24P.addEventListener("click", escolheuitem24P)
+
+
+
+
+
+function escolheuitemb1(){
+    itemb1 = 4
+    valorTotal = valorTotal + itemb1
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b1.addEventListener("click", escolheuitemb1)
+
+function escolheuitemb2(){
+    itemb2 = 5
+    valorTotal = valorTotal + itemb2
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b2.addEventListener("click", escolheuitemb2)
+
+function escolheuitemb3(){
+    itemb3 = 8
+    valorTotal = valorTotal + itemb3
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b3.addEventListener("click", escolheuitemb3)
+
+function escolheuitemb4(){
+    itemb4 = 11
+    valorTotal = valorTotal + itemb4
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b4.addEventListener("click", escolheuitemb4)
+
+function escolheuitemb5(){
+    itemb5 = 12
+    valorTotal = valorTotal + itemb5
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b5.addEventListener("click", escolheuitemb5)
+
+function escolheuitemb6(){
+    itemb6 = 11
+    valorTotal = valorTotal + itemb6
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b6.addEventListener("click", escolheuitemb6)
+
+function escolheuitemb7(){
+    itemb7 = 12
+    valorTotal = valorTotal + itemb7
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b7.addEventListener("click", escolheuitemb7)
+
+function escolheuitemb8(){
+    itemb8 = 6
+    valorTotal = valorTotal + itemb8
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b8.addEventListener("click", escolheuitemb8)
+
+function escolheuitemb9(){
+    itemb9 = 9
+    valorTotal = valorTotal + itemb9
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b9.addEventListener("click", escolheuitemb9)
+
+function escolheuitemb10(){
+    itemb10 = 18
+    valorTotal = valorTotal + itemb10
+    valorTotal = Number(valorTotal.toFixed(3))
+    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    bebidas = bebidas + 1
+    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+}
+b10.addEventListener("click", escolheuitemb10)
 
 
 

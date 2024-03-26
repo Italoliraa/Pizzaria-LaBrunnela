@@ -158,11 +158,18 @@ body {
 }
 
 .valor-tudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-self: center;
     align-items: center;
 }
 
-.valor-da-pizza, .quantia-de-pizza{
+.valor-tudo button, .valor-tudo a{
+    border-radius: 14px;
+}
+
+.valor-da-pizza, .quantidade{
     color: #fff;
 }
 
@@ -173,18 +180,7 @@ body {
     cursor: pointer;
     border-radius: 50px;
 }
-/*
-.desing{
-    margin-right: 80px;
-    float: right;
-    text-align: center;
-    color: #fff;
-}
-.especial{
-    margin-right: 0px;
-    height: 50px;
-}
-*/
+
 .design {
     position: fixed;
     bottom: 20px; 
@@ -239,4 +235,10 @@ h4{
     color: orange;
     font-size: 13pt;
     margin: 0px;
+}
+
+button:hover{
+    transform: translateX(-2px);
+    transform: translateY(-2px);
+    transition-duration: 500ms;
 }
