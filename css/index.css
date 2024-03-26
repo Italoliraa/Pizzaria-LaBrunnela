@@ -15,37 +15,27 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#logo{
-    margin-top: 50px;
-}
-
 .list-menu{
-    margin: 0px;
     cursor: pointer;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
     padding: 10px;
+    align-items: center;
     text-align: center;
-    
 }
 
 .list-menu a{
     text-decoration: none;
     color: #fff;
 }
-.list-menu a:hover{
-    color: orangered;
-}
 
 .list-menu h3{
     align-self: baseline;
 }
 
-#foto-logo{
-    text-align: center;
-}
-
-.photo{
-    width: 190px;
-    border: 3px;
+.menuu:hover{
+    color: orangered;
 }
 
 .marketing{
@@ -154,7 +144,18 @@ body {
     padding-bottom: 8px;
 }
 
+#foto-logo{
+    display: flex;
+    background: linear-gradient(to right, rgb(146, 39, 0), rgb(204, 54, 0), orangered, orangered);
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+}
 
+.photo{
+    height: 300px;
+    width: 300px;
+}
 
 .valor-tudo{
     display: flex;
@@ -240,8 +241,4 @@ button:hover{
     transform: translateX(-2px);
     transform: translateY(-2px);
     transition-duration: 500ms;
-}
-
-.desenvolvimento a:hover{
-    color: blue;
 }
