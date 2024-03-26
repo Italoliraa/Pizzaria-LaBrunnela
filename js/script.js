@@ -1,4 +1,4 @@
-/* feito por ismael */
+
 let searchBox = document.querySelector('#search-box');
 let images = document.querySelectorAll(' .container .image-container .image');
 
@@ -158,9 +158,9 @@ function escolheuitem1G(){
     item1G = 53.90
     valorTotal = valorTotal + item1G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c1G.addEventListener("click", escolheuitem1G)
 
@@ -168,9 +168,9 @@ function escolheuitem2G(){
     item2G = 51.90
     valorTotal = valorTotal + item2G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c2G.addEventListener("click", escolheuitem2G)
 
@@ -179,8 +179,8 @@ function escolheuitem3G(){
     valorTotal = valorTotal + item3G
     valorTotal = Number(valorTotal.toFixed(3))
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
 }
 c3G.addEventListener("click", escolheuitem3G)
 
@@ -189,8 +189,8 @@ function escolheuitem4G(){
     valorTotal = valorTotal + item4G
     valorTotal = Number(valorTotal.toFixed(3))
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
 }
 c4G.addEventListener("click", escolheuitem4G)
 
@@ -199,8 +199,8 @@ function escolheuitem5G(){
     valorTotal = valorTotal + item5G
     valorTotal = Number(valorTotal.toFixed(3))
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
 }
 c5G.addEventListener("click", escolheuitem5G)
 
@@ -209,8 +209,8 @@ function escolheuitem6G(){
     valorTotal = valorTotal + item6G
     valorTotal = Number(valorTotal.toFixed(3))
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
 }
 c6G.addEventListener("click", escolheuitem6G)
 
@@ -219,8 +219,8 @@ function escolheuitem7G(){
     valorTotal = valorTotal + item7G
     valorTotal = Number(valorTotal.toFixed(3))
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
 }
 c7G.addEventListener("click", escolheuitem7G)
 
@@ -229,8 +229,8 @@ function escolheuitem8G(){
     valorTotal = valorTotal + item8G
     valorTotal = Number(valorTotal.toFixed(3))
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
 }
 c8G.addEventListener("click", escolheuitem8G)
 
@@ -239,8 +239,8 @@ function escolheuitem9G(){
     valorTotal = valorTotal + item9G
     valorTotal = Number(valorTotal.toFixed(3))
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
 }
 c9G.addEventListener("click", escolheuitem9G)
 
@@ -248,9 +248,9 @@ function escolheuitem10G(){
     item10G = 72.90
     valorTotal = valorTotal + item10G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c10G.addEventListener("click", escolheuitem10G)
 
@@ -258,9 +258,9 @@ function escolheuitem11G(){
     item11G = 59.90
     valorTotal = valorTotal + item11G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c11G.addEventListener("click", escolheuitem11G)
 
@@ -268,9 +268,9 @@ function escolheuitem12G(){
     item12G = 59.90
     valorTotal = valorTotal + item12G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c12G.addEventListener("click", escolheuitem12G)
 
@@ -278,9 +278,9 @@ function escolheuitem13G(){
     item13G = 69.90
     valorTotal = valorTotal + item13G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c13G.addEventListener("click", escolheuitem13G)
 
@@ -288,9 +288,9 @@ function escolheuitem14G(){
     item14G = 85.90
     valorTotal = valorTotal + item14G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c14G.addEventListener("click", escolheuitem14G)
 
@@ -298,9 +298,9 @@ function escolheuitem15G(){
     item15G = 53.90
     valorTotal = valorTotal + item15G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c15G.addEventListener("click", escolheuitem15G)
 
@@ -308,9 +308,9 @@ function escolheuitem16G(){
     item16G = 53.90
     valorTotal = valorTotal + item16G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c16G.addEventListener("click", escolheuitem16G)
 
@@ -318,9 +318,9 @@ function escolheuitem17G(){
     item17G = 53.90
     valorTotal = valorTotal + item17G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c17G.addEventListener("click", escolheuitem17G)
 
@@ -328,9 +328,9 @@ function escolheuitem18G(){
     item18G = 85.90
     valorTotal = valorTotal + item18G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c18G.addEventListener("click", escolheuitem18G)
 
@@ -338,9 +338,9 @@ function escolheuitem19G(){
     item19G = 59.90
     valorTotal = valorTotal + item19G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c19G.addEventListener("click", escolheuitem19G)
 
@@ -348,9 +348,9 @@ function escolheuitem20G(){
     item20G = 72.90
     valorTotal = valorTotal + item20G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c20G.addEventListener("click", escolheuitem20G)
 
@@ -358,9 +358,9 @@ function escolheuitem21G(){
     item21G = 53.90
     valorTotal = valorTotal + item21G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c21G.addEventListener("click", escolheuitem21G)
 
@@ -368,9 +368,9 @@ function escolheuitem22G(){
     item22G = 53.90
     valorTotal = valorTotal + item22G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c22G.addEventListener("click", escolheuitem22G)
 
@@ -378,9 +378,9 @@ function escolheuitem23G(){
     item23G = 53.90
     valorTotal = valorTotal + item23G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c23G.addEventListener("click", escolheuitem23G)
 
@@ -388,9 +388,9 @@ function escolheuitem24G(){
     item24G = 53.90
     valorTotal = valorTotal + item24G
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     grandes = grandes + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c24G.addEventListener("click", escolheuitem24G)
 
@@ -402,9 +402,9 @@ function escolheuitem1P(){
     item1P = 33.90
     valorTotal = valorTotal + item1P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c1P.addEventListener("click", escolheuitem1P)
 
@@ -412,9 +412,9 @@ function escolheuitem2P(){
     item2P = 32.90
     valorTotal = valorTotal + item2P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c2P.addEventListener("click", escolheuitem2P)
 
@@ -422,9 +422,9 @@ function escolheuitem3P(){
     item3P = 32.90
     valorTotal = valorTotal + item3P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c3P.addEventListener("click", escolheuitem3P)
 
@@ -432,9 +432,9 @@ function escolheuitem4P(){
     item4P = 32.90
     valorTotal = valorTotal + item4P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c4P.addEventListener("click", escolheuitem4P)
 
@@ -442,9 +442,9 @@ function escolheuitem5P(){
     item5P = 45.90
     valorTotal = valorTotal + item5P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c5P.addEventListener("click", escolheuitem5P)
 
@@ -452,9 +452,9 @@ function escolheuitem6P(){
     item6P = 39.90
     valorTotal = valorTotal + item6P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c6P.addEventListener("click", escolheuitem6P)
 
@@ -462,9 +462,9 @@ function escolheuitem7P(){
     item7P = 39.90
     valorTotal = valorTotal + item7P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c7P.addEventListener("click", escolheuitem7P)
 
@@ -472,9 +472,9 @@ function escolheuitem8P(){
     item8P = 45.90
     valorTotal = valorTotal + item8P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c8P.addEventListener("click", escolheuitem8P)
 
@@ -482,9 +482,9 @@ function escolheuitem9P(){
     item9P = 45.90
     valorTotal = valorTotal + item9P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c9P.addEventListener("click", escolheuitem9P)
 
@@ -492,9 +492,9 @@ function escolheuitem10P(){
     item10P = 45.90
     valorTotal = valorTotal + item10P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c10P.addEventListener("click", escolheuitem10P)
 
@@ -502,9 +502,9 @@ function escolheuitem11P(){
     item11P = 45.90
     valorTotal = valorTotal + item11P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c11P.addEventListener("click", escolheuitem11P)
 
@@ -512,9 +512,9 @@ function escolheuitem12P(){
     item12P = 45.90
     valorTotal = valorTotal + item12P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c12P.addEventListener("click", escolheuitem12P)
 
@@ -522,9 +522,9 @@ function escolheuitem13P(){
     item13P = 43.90
     valorTotal = valorTotal + item13P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c13P.addEventListener("click", escolheuitem13P)
 
@@ -532,9 +532,9 @@ function escolheuitem14P(){
     item14P = 53.90
     valorTotal = valorTotal + item14P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c14P.addEventListener("click", escolheuitem14P)
 
@@ -542,9 +542,9 @@ function escolheuitem15P(){
     item15P = 33.90
     valorTotal = valorTotal + item15P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c15P.addEventListener("click", escolheuitem15P)
 
@@ -552,9 +552,9 @@ function escolheuitem16P(){
     item16P = 33.90
     valorTotal = valorTotal + item16P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c16P.addEventListener("click", escolheuitem16P)
 
@@ -562,9 +562,9 @@ function escolheuitem17P(){
     item17P = 33.90
     valorTotal = valorTotal + item17P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c17P.addEventListener("click", escolheuitem17P)
 
@@ -572,9 +572,9 @@ function escolheuitem18P(){
     item18P = 53.90
     valorTotal = valorTotal + item18P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c18P.addEventListener("click", escolheuitem18P)
 
@@ -582,9 +582,9 @@ function escolheuitem19P(){
     item19P = 45.90
     valorTotal = valorTotal + item19P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c19P.addEventListener("click", escolheuitem19P)
 
@@ -592,9 +592,9 @@ function escolheuitem20P(){
     item20P = 45.90
     valorTotal = valorTotal + item20P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c20P.addEventListener("click", escolheuitem20P)
 
@@ -602,9 +602,9 @@ function escolheuitem21P(){
     item21P = 33.90
     valorTotal = valorTotal + item21P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c21P.addEventListener("click", escolheuitem21P)
 
@@ -612,9 +612,9 @@ function escolheuitem22P(){
     item22P = 33.90
     valorTotal = valorTotal + item22P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c22P.addEventListener("click", escolheuitem22P)
 
@@ -622,9 +622,9 @@ function escolheuitem23P(){
     item23P = 33.90
     valorTotal = valorTotal + item23P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c23P.addEventListener("click", escolheuitem23P)
 
@@ -632,9 +632,9 @@ function escolheuitem24P(){
     item24P = 33.90
     valorTotal = valorTotal + item24P
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     pequenas = pequenas + 1
-    quantidadePizzas.innerHTML = "você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
+    quantidadePizzas.innerHTML = "Você escolheu: " + grandes + " pizzas grandes e " + pequenas + " pequenas"
 }
 c24P.addEventListener("click", escolheuitem24P)
 
@@ -646,9 +646,9 @@ function escolheuitemb1(){
     itemb1 = 4
     valorTotal = valorTotal + itemb1
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b1.addEventListener("click", escolheuitemb1)
 
@@ -656,9 +656,9 @@ function escolheuitemb2(){
     itemb2 = 5
     valorTotal = valorTotal + itemb2
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b2.addEventListener("click", escolheuitemb2)
 
@@ -666,9 +666,9 @@ function escolheuitemb3(){
     itemb3 = 8
     valorTotal = valorTotal + itemb3
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b3.addEventListener("click", escolheuitemb3)
 
@@ -676,9 +676,9 @@ function escolheuitemb4(){
     itemb4 = 11
     valorTotal = valorTotal + itemb4
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b4.addEventListener("click", escolheuitemb4)
 
@@ -686,9 +686,9 @@ function escolheuitemb5(){
     itemb5 = 12
     valorTotal = valorTotal + itemb5
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b5.addEventListener("click", escolheuitemb5)
 
@@ -696,9 +696,9 @@ function escolheuitemb6(){
     itemb6 = 11
     valorTotal = valorTotal + itemb6
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b6.addEventListener("click", escolheuitemb6)
 
@@ -706,9 +706,9 @@ function escolheuitemb7(){
     itemb7 = 12
     valorTotal = valorTotal + itemb7
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b7.addEventListener("click", escolheuitemb7)
 
@@ -716,9 +716,9 @@ function escolheuitemb8(){
     itemb8 = 6
     valorTotal = valorTotal + itemb8
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b8.addEventListener("click", escolheuitemb8)
 
@@ -726,9 +726,9 @@ function escolheuitemb9(){
     itemb9 = 9
     valorTotal = valorTotal + itemb9
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b9.addEventListener("click", escolheuitemb9)
 
@@ -736,9 +736,9 @@ function escolheuitemb10(){
     itemb10 = 18
     valorTotal = valorTotal + itemb10
     valorTotal = Number(valorTotal.toFixed(3))
-    valorAtual.innerHTML = "Valor atual: " + valorTotal
+    valorAtual.innerHTML = "Valor total de R$: " + valorTotal
     bebidas = bebidas + 1
-    quantidadeBebidas.innerHTML = "você escolheu: " + bebidas + " bebidas"
+    quantidadeBebidas.innerHTML = "Você escolheu: " + bebidas + " bebidas"
 }
 b10.addEventListener("click", escolheuitemb10)
 
